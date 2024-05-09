@@ -1,2 +1,4 @@
 *.bat
 settings.bat
+*.exe
+*.csv
