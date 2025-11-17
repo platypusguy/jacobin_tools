@@ -14,7 +14,7 @@ import (
 // Show help and then exit to the O/S
 func showHelp() {
 	arg0 := filepath.Base(os.Args[0])
-	fmt.Printf("\nUsage:  %s  [-h]  {Input summary report}  {output summary report}\n\nwhere\n", arg0)
+	fmt.Printf("\nUsage:  %s  [-h]  {Input summary report}  {output CSV file}\n\nwhere\n", arg0)
 	fmt.Printf("\nExit codes:\n")
 	fmt.Printf("\t0\tNormal completion.\n")
 	fmt.Printf("\t1\tSomething went wrong during execution or help requested.\n\n")
